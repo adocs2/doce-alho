@@ -191,6 +191,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	opacity: 0;
+    transition: opacity 1.5s ease-in-out;
 }
 .intro .overlay {
 	background: rgba(0,0,0,0.2);

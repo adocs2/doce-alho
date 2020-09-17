@@ -17,25 +17,29 @@ export class Header extends Component {
 
   backgroudCarrossel = () => {
     const interval = setInterval(() => {
+      setTimeout(() => {document.getElementById("intro-header").style.opacity = 0}, 4000);
       let { bgArray, index } = this.state
       if (index < 4) {
         this.setState({ bg: bgArray[index] })
         this.setState({ index: index + 1 })
+        document.getElementById("intro-header").style.opacity = 1;
       } else {
         this.setState({ bg: bgArray[0] })
+        document.getElementById("intro-header").style.opacity = 1;
         this.setState({ index: 1 })
       }
     }, 5000);
   }
 
   componentDidMount = () => {
+    document.getElementById("intro-header").style.opacity = 1;
     this.backgroudCarrossel()
   }
 
   render() {
     return (
       <header id="header">
-        <div className="intro" style={{
+        <div id="intro-header" className="intro" style={{
           backgroundImage: `url(${this.state.bg})`,
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
