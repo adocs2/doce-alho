@@ -1,0 +1,123 @@
+{
+    "Header": {
+        "title": "Doce Alho",
+        "paragraph": "Desfrute a Vida com + SAÚDE"
+    },
+    "About": {
+        "paragraph": "Nós somos uma jovem empresa, nascida em Brasília. Amantes da boa gastronomia e agrônomos por vocação, decidimos aplicar anos de estudo e dedicação para produzir um alimento natural, versátil, gostoso e saudável.",
+        "Why": [
+            "regula o colesterol",
+            "regula os níveis de açúcar no sangue ",
+            "rico em vitamina C",
+            "rico em antioxidantes "
+        ],
+        "Why2": [
+            "fortalece o sistema imunológico",
+            "dá energia e vigor",
+            "melhora a circulação sanguínea",
+            "antibiótico natural",
+            "diminui o colesterol"
+        ]
+    },
+    "Services": [
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Alho negro com casca",
+            "text": "Caixa com 2 Bulbos 50g"
+        },
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Alho negro descascado pequena",
+            "text": "Caixa com 100g"
+        },
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Alho negro descascado grande",
+            "text": "Caixa com 250"
+        },
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Pasta de alho negro",
+            "text": "Pote com 125g"
+        }
+    ],
+    "Testimonials": [
+        {
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        }
+    ],
+    "Team": [
+        {
+            "img": "img/team/01.jpg",
+            "name": "John Doe",
+            "job": "Director"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Mike Doe",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/03.jpg",
+            "name": "Jane Doe",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "name": "Karen Doe",
+            "job": "Project Manager"
+        }
+    ],
+    "Contact": {
+        "address": "4321 California St, San Francisco, CA 12345 ",
+        "phone": "+55 (61) 99625-5155",
+        "email": "docealho@gmail.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "instagram": "https://www.instagram.com/docealho/"
+    },
+    "Features": [
+        {
+            "icon": "fa fa-comments-o",
+            "title": "Missão",
+            "text": "Levar a você um alimento de qualidade para uma vida com mais saúde, garantindo muito sabor a cada experiência."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Valor",
+            "text": "Transparência, Honestidade e Respeito. Nosso compromisso é fazer o bem para você e para o mundo."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Visão",
+            "text": "Queremos olhar para o futuro e ver a Doce Alho levar o alho negro a mais brasileiros. Diante do desafio de comer bem para alcançar mais saúde e melhor nutrição, esperamos estar sempre ao seu lado."
+        }
+    ]
+}
