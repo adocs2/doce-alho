@@ -1,5 +1,5 @@
 {
-  "name": "landingpage-react-template",
+  "name": "doce-alho",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -15,8 +15,6 @@
     "react-toastify": "^6.0.8"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
