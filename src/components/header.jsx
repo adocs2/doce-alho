@@ -1,16 +1,12 @@
 import React, { Component } from "react";
-import bg7 from '../img/intro-bg7.JPG'
-import bg6 from '../img/intro-bg6.JPG'
-import bg5 from '../img/intro-bg5.JPG'
-import bg4 from '../img/intro-bg4.JPG'
 
 export class Header extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      bg: bg4,
-      bgArray: [bg7, bg6, bg5, bg4],
+      bg: 'img/intro-bg4.JPG',
+      bgArray: ['img/intro-bg7.JPG', 'img/intro-bg6.JPG', 'img/intro-bg5.JPG', 'img/intro-bg4.JPG'],
       index: 0,
     }
   }
