@@ -37,7 +37,7 @@ export class Gallery extends Component {
           <div className="section-title">
             <h2>Instagram</h2>
             <p>
-              Nos siga no Instagram e aprenda a armonizar sua vida com o Alho Negro!
+              Nos siga no Instagram e aprenda a harmonizar sua vida com o Alho Negro!
             </p>
             <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/docealho/">
               <i style={{
