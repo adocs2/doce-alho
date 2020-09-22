@@ -13,7 +13,6 @@ export class Services extends Component {
               ? this.props.data.map((d, i) => (
                   <div
                     key={`${d.name}-${i}`}
-                    className="col-md-12"
                     style={{ alignContent: "center" }}
                   >
                     {" "}
