@@ -1,56 +1,56 @@
 import React, { Component } from "react";
-import axios from 'axios';
-import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.min.css'; 
-require('dotenv').config();
+import axios from "axios";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.min.css";
+require("dotenv").config();
 
 export class Contact extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      name: '',
-      email: '',
-      message: '',
-    }
+      name: "",
+      email: "",
+      message: "",
+    };
   }
-  toastSucess = () => toast.success('Mensagem enviada com sucesso!')
-  toastFailed = () => toast.error('Erro ao enviar a mensagem')
+  toastSucess = () => toast.success("Mensagem enviada com sucesso!");
+  toastFailed = () => toast.error("Erro ao enviar a mensagem");
   sendEmail = () => {
-    let { name, email, message } = this.state
-    if (name !== '' && email !== '' & message !== '') {
-      axios.post('https://api.emailjs.com/api/v1.0/email/send', {
-        service_id: process.env.REACT_APP_SERVICE_ID,
-        template_id: process.env.REACT_APP_TEMPLATE_ID,
-        user_id: process.env.REACT_APP_USER_ID,
-        template_params: {
-          'from_name': name,
-          'to_email': email,
-          'message': message
-        }
-      })
-        .then(res => {
-         this.setState({name: ''})
-         this.setState({email: ''})
-         this.setState({message: ''})
-         this.toastSucess()
-        }).catch(() => {
-          this.toastFailed()
+    let { name, email, message } = this.state;
+    if (name !== "" && (email !== "") & (message !== "")) {
+      axios
+        .post("https://api.emailjs.com/api/v1.0/email/send", {
+          service_id: process.env.REACT_APP_SERVICE_ID,
+          template_id: process.env.REACT_APP_TEMPLATE_ID,
+          user_id: process.env.REACT_APP_USER_ID,
+          template_params: {
+            from_name: name,
+            to_email: email,
+            message: message,
+          },
         })
+        .then((res) => {
+          this.setState({ name: "" });
+          this.setState({ email: "" });
+          this.setState({ message: "" });
+          this.toastSucess();
+        })
+        .catch(() => {
+          this.toastFailed();
+        });
     }
-  }
+  };
   onChangeName = (name) => {
-    console.log(process.env)
-    this.setState({ name: name.target.value })
-  }
+    console.log(process.env);
+    this.setState({ name: name.target.value });
+  };
   onChangeEmail = (email) => {
-    this.setState({ email: email.target.value })
-
-  }
+    this.setState({ email: email.target.value });
+  };
   onChangeMessage = (message) => {
-    this.setState({ message: message.target.value })
-
-  }
+    this.setState({ message: message.target.value });
+  };
   render() {
     let { name, email, message } = this.state;
     return (
@@ -62,9 +62,7 @@ export class Contact extends Component {
               <div className="row">
                 <div className="section-title">
                   <h2>Entre em contato</h2>
-                  <p>
-                    Entre em contato caso tenha interesse!
-                  </p>
+                  <p>Entre em contato caso tenha interesse!</p>
                 </div>
                 <div className="row">
                   <div className="col-md-6">
@@ -110,9 +108,12 @@ export class Contact extends Component {
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button onClick={this.sendEmail} className="btn btn-custom btn-lg">
+                <button
+                  onClick={this.sendEmail}
+                  className="btn btn-custom btn-lg"
+                >
                   Enviar Mensagem
-                  </button>
+                </button>
               </div>
             </div>
             <div className="col-md-3 col-md-offset-1 contact-info">
@@ -159,7 +160,20 @@ export class Contact extends Component {
                       </a>
                     </li> */}
                     <li>
-                      <a target="_blank" rel="noopener noreferrer" href={this.props.data ? this.props.data.instagram : "/"}>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={this.props.data ? this.props.data.whatsapp : "/"}
+                      >
+                        <i className="fa fa-whatsapp"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={this.props.data ? this.props.data.instagram : "/"}
+                      >
                         <i className="fa fa-instagram"></i>
                       </a>
                     </li>
