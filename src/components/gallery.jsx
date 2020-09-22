@@ -37,7 +37,7 @@ export class Gallery extends Component {
           <div className="section-title">
             <h2>Galeria</h2>
             <p>
-              Veja um pouco dos nossos produtos, para mais detalhes veja nosso instagram!
+              Veja um pouco dos nossos produtos, para mais detalhes acesse nosso instagram!
             </p>
           </div>
           {instagram_media ? <>
