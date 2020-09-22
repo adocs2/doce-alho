@@ -45,7 +45,7 @@ export class Navigation extends Component {
               </li>
               <li>
                 <a href="#portfolio" className="page-scroll">
-                  Galeria
+                  Instagram
                 </a>
               </li>
               {/* <li>

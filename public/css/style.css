@@ -334,6 +334,9 @@ header .intro-text {
 #portfolio {
 	padding: 100px 0;
 }
+#portfolio .section-title {
+	margin-bottom: 40px;
+}
 .portfolio-item {
 	margin: 1px -15px 0 -14px;
 	padding: 0;

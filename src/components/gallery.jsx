@@ -35,10 +35,20 @@ export class Gallery extends Component {
       <div id="portfolio" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>Galeria</h2>
+            <h2>Instagram</h2>
             <p>
-              Veja um pouco dos nossos produtos, para mais detalhes acesse nosso instagram!
+              Nos siga no Instagram e aprenda a armonizar sua vida com o Alho Negro!
             </p>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/docealho/">
+              <i style={{
+                color: '#cd8de5',
+                fontSize: 30,
+                width: 48,
+                height: 48,
+                marginTop: 10,
+                border: 2,
+              }} className="fa fa-instagram"></i>
+            </a>
           </div>
           {instagram_media ? <>
             <div className="row">
@@ -73,7 +83,7 @@ export class Gallery extends Component {
               </div>
             </div></> : <></>}
         </div>
-      </div>
+      </div >
     );
   }
 }

@@ -7,9 +7,6 @@ export class Services extends Component {
         <div className="container">
           <div className="section-title">
             <h2>Nossos Produtos</h2>
-            <p>
-              Atualmente contamos com esses produtos para venda:
-            </p>
           </div>
           <div className="row">
             {this.props.data
@@ -27,12 +24,12 @@ export class Services extends Component {
               : "loading"}
           </div>
         </div>
-        <div className="section-title">
-            <p>
+        <div>
+            <p style={{fontSize: 18}}>
               Mais produtos em breve!
             </p>
-            <p>
-              Entre em contato caso deseje comprar dos nossos produtos
+            <p style={{fontSize: 20}}>
+              Vendas através do nosso email e WhatsApp
             </p>
           </div>
       </div>
