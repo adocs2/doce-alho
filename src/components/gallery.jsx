@@ -39,16 +39,6 @@ export class Gallery extends Component {
             <p>
               Nos siga no Instagram e aprenda a harmonizar sua vida com o Alho Negro!
             </p>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/docealho/">
-              <i style={{
-                color: '#cd8de5',
-                fontSize: 30,
-                width: 48,
-                height: 48,
-                marginTop: 10,
-                border: 2,
-              }} className="fa fa-instagram"></i>
-            </a>
           </div>
           {instagram_media ? <>
             <div className="row">
