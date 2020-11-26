@@ -9,14 +9,14 @@ export class Services extends Component {
             <h2>Nossos Produtos</h2>
             <p style={{ fontSize: 18 }}>Mais produtos em breve!</p>
             <p style={{ fontSize: 20 }}>
-              Vendas através do nosso email na área de contato do site ou via
-              WhatsApp clicando no ícone logo abaixo
+              Vendas através do nosso email na área de contato do site. Enviamos para todo Brasil!
           </p>
           </div>
           <div className="row">
             {this.props.data
               ? this.props.data.map((d, i) => (
                 <div
+                  className="col-md-12"
                   key={`${d.name}-${i}`}
                   style={{ alignContent: "center" }}
                 >

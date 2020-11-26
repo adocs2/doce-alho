@@ -11,6 +11,7 @@ import JsonData from './data/data.json';
 import { Fab } from '@material-ui/core';
 import WhatsApp from '@material-ui/icons/WhatsApp';
 import Instagram from '@material-ui/icons/Instagram';
+import Facebook from '@material-ui/icons/Facebook';
 
 
 export class App extends Component {
@@ -49,6 +50,15 @@ export class App extends Component {
               href="https://whats.link/whatsappdocealho">
               <Fab size='large' style={{ backgroundColor: '#cd8de5' }}>
                 <WhatsApp style={{ color: 'white', fontSize: 30 }} />
+              </Fab>
+            </a>
+          </div>
+          <div style={{marginBottom: 10}}>
+            <a target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.facebook.com/docealhooficial/">
+              <Fab size='large' style={{ backgroundColor: '#cd8de5' }}>
+                <Facebook style={{ color: 'white', fontSize: 30 }} />
               </Fab>
             </a>
           </div>

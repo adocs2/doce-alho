@@ -9,8 +9,8 @@ export class Header extends Component {
       bgArray: [
         "img/intro-bg7.JPG",
         "img/intro-bg6.JPG",
-        "img/intro-bg5.JPG",
-        "img/intro-bg4.JPG",
+        "img/intro-bg9.JPG",
+        "img/intro-bg11.JPG",
       ],
       index: 0,
     };

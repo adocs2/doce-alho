@@ -177,6 +177,15 @@ export class Contact extends Component {
                         <i className="fa fa-instagram"></i>
                       </a>
                     </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={this.props.data ? this.props.data.facebook : "/"}
+                      >
+                        <i className="fa fa-facebook"></i>
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
