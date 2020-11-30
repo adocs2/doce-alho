@@ -43,7 +43,7 @@ export class App extends Component {
       <>
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
-        <div style={{ position: 'fixed', display: 'flex', flexDirection: 'column', top: '75%', right: '1%', zIndex: 1}}>
+        <div style={{ position: 'fixed', display: 'flex', flexDirection: 'column', top: '60%', right: '1%', zIndex: 1}}>
           <div style={{marginBottom: 10}}>
             <a target="_blank"
               rel="noopener noreferrer"
