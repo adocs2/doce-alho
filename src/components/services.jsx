@@ -16,12 +16,12 @@ export class Services extends Component {
             {this.props.data
               ? this.props.data.map((d, i) => (
                 <div
-                  className="col-md-12"
+                  className="col-md-6"
                   key={`${d.name}-${i}`}
                   style={{ alignContent: "center" }}
                 >
                   {" "}
-                  <img src={d.img} style={{ width: "300", height: "300" }} />
+                  <img src={d.img} style={{ width: d.width, height: d.height }} />
                   <div className="service-desc">
                     <h3 style={{ alignSelf: "center" }}>{d.name}</h3>
                     <p style={{ alignSelf: "center" }}>{d.text}</p>

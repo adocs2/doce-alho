@@ -21,10 +21,20 @@
   },
   "Services": [
     {
-      "img": "img/produto.JPG",
+      "img": "img/produto1-semfundo.PNG",
       "name": "Alho negro com casca",
       "text": "Caixa com 2 Bulbos 50g",
-      "price": "R$ 21,00"
+      "price": "R$ 21,00",
+      "height": "300",
+      "width": "300"
+    },
+    {
+      "img": "img/produto2-semfundo.PNG",
+      "name": "Geléia de alho negro",
+      "text": "Pote com 200g",
+      "price": "R$ 26,00",
+      "height": "300",
+      "width": "400"
     }
   ],
   "Testimonials": [
