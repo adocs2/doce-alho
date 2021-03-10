@@ -16,7 +16,7 @@ export class Services extends Component {
             {this.props.data
               ? this.props.data.map((d, i) => (
                 <div
-                  className="col-md-6"
+                  className="col-md-4"
                   key={`${d.name}-${i}`}
                   style={{ alignContent: "center" }}
                 >
