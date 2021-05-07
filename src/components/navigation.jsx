@@ -48,6 +48,11 @@ export class Navigation extends Component {
                   Instagram
                 </a>
               </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCHsKUVqV-YM6nsF0KBS0Fag/featured" target="_blank" className="page-scroll">
+                  Receitas
+                </a>
+              </li>
               {/* <li>
                 <a href="#testimonials" className="page-scroll">
                   Testimonials
